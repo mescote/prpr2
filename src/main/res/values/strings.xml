@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">TNEVE</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="create_event">Create event</string>
+    <string name="events">Events</string>
+    <string name="timeline">Timeline</string>
+    <string name="messages">Messages</string>
+    <string name="search">Search Friends</string>
+    <string name="settings">Log Out</string>
+    <string name="profile">Profile</string>
+
+    <!-- WELCOME SCREEN -->
+    <string name="signInButton">SIGN IN</string>
+    <string name="signUpButton">SIGN UP</string>
+
+    <!-- SIGN IN & SIGN UP SCREENS -->
+    <string name="signInTitle">SIGN IN</string>
+    <string name="signUpTitle">SIGN UP</string>
+    <string name="hintFirstName">First Name</string>
+    <string name="hintLastName">Last Name</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Password</string>
+    <string name="hintProfilePicture">Profile Picture</string>
+    <string name="hintUrl">Image Url</string>
+
+    <string name="not_registered_text">No account?</string>
+    <string name="not_registered_text_button">Sign Up</string>
+    <string name="already_registered_text">Already have an account?</string>
+    <string name="already_registered_text_button">Sign In</string>
+    <string name="password_length">Password must be at least 8 characters long</string>
+    <string name="password_err">Password must contain alphanumeric characters</string>
+    <string name="password_alphanumeric">Only alpha-numeric characters</string>
+
+    <string name="fieldsMissing">Fields Missing</string>
+    <string name="correctSignIn">You were successfully signed in!</string>
+
+    <string name="pastEvents">Past Events</string>
+    <string name="futureEvents">Future Events</string>
+
+    <!-- EVENTS -->
+    <string name="CreateEventTitle">CREATE EVENT</string>
+
+    <!-- MAIN SCREEN -->
+    <string name="mainScreenTitle">DASHBOARD</string>
+
+    <string name="chatTitle">CHAT</string>
+    <string name="searchTitle">SEARCH</string>
+    <string name="eventsTitle">NEXT EVENTS</string>
+    <string name="messagesTitle">MESSAGES</string>
+    <string name="timelineTitle">TIMELINE</string>
+    <string name="dashboardTitle">DASHBOARD</string>
+    <string name="createEventTitle">CREATE EVENT</string>
+    <string name="profileTitle">PROFILE</string>
+    <string name="hintName">Name</string>
+    <string name="hintDescription">Description</string>
+    <string name="hintType">Type</string>
+    <string name="hintStartDate">Start Day - (dd/MM/yyyy)</string>
+    <string name="hintStartTime">Start Time - (HH:mm)</string>
+    <string name="hintEndDate">End Day - (dd/MM/yyyy)</string>
+    <string name="hintEndTime">End Time - (HH:mm)</string>
+    <string name="hintLocation">Event Location</string>
+    <string name="hintNumParticipants">Number of Participants</string>
+    <string name="editProfileButton">EDIT PROFILE</string>
+    <string name="createEventButton">CREATE EVENT</string>
+    <string name="attendEventButton">ATTEND</string>
+    <string name="cancelAttendEventButton">CANCEL ATTENDANCE</string>
+    <string name="deleteEventButton">DELETE EVENT</string>
+    <string name="saveNewProfileInfo">SAVE</string>
+
+    <!-- API -->
+    <string name="apiSignUpFail">Failed to Sign Up!</string>
+    <string name="apiLogInFail">Failed to Log In!</string>
+    <string name="apiConnectionFail">Unable to connect API!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

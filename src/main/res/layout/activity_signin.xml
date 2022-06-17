@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_gray">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/title_signin"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:text="@string/signInTitle"
+            android:textColor="@color/pink"/>
+
+        <EditText
+            android:id="@+id/email_sigin"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="24dp"
+            android:padding="12dp"
+            android:hint="@string/hintEmail"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/gray_text"
+            android:textColor="@color/gray_text"
+            android:background="@drawable/ic_input_text"/>
+        <EditText
+            android:id="@+id/password_signin"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="24dp"
+            android:padding="12dp"
+            android:hint="@string/hintPassword"
+            android:inputType="textPassword"
+            android:textColor="@color/gray_text"
+            android:textColorHint="@color/gray_text"
+            android:background="@drawable/ic_input_text" />
+        <Button
+            android:id="@+id/button_signin"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="24dp"
+            android:text="@string/signInButton"
+            android:textColor="@color/dark_gray"
+            android:backgroundTint="@color/pink" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-12dp"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/not_registered_text"
+            android:textColor="@color/gray_text"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="@string/not_registered_text_button"
+            android:textColor="@color/pink"
+            android:onClick="onClickGoToSignup"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Split">
+        <menu></menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_dashboard"
+            android:title="@string/dashboard"/>
+        <item
+            android:id="@+id/drawer_create_event"
+            android:title="@string/create_event"/>
+        <item
+            android:id="@+id/drawer_events"
+            android:title="@string/events"/>
+        <item
+            android:id="@+id/drawer_timeline"
+            android:title="@string/timeline"/>
+        <item
+            android:id="@+id/drawer_messages"
+            android:title="@string/messages"/>
+        <item
+            android:id="@+id/drawer_search"
+            android:title="@string/search"/>
+        <item
+            android:id="@+id/drawer_profile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/drawer_settings"
+            android:title="@string/settings" />
+    </group>
+</menu>
