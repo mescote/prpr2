@@ -27,7 +27,6 @@ public class Attend {
     @SerializedName("comentary")
     private String mComment;
 
-
     public Attend() {
     }
 
